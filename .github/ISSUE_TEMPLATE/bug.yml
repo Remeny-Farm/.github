@@ -21,6 +21,18 @@ body:
       description: Links (Sentry issue, CI run, PR, commit), file and line, screenshots without personal data.
     validations:
       required: true
+  - type: input
+    id: area
+    attributes:
+      label: Affected area
+      description: The product, app, page or service (for example the mobile app, the public web, the admin, the API).
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Version and environment
+      description: App, build or OTA version, platform, OS or browser, and when it happened.
   - type: textarea
     id: expected
     attributes:
