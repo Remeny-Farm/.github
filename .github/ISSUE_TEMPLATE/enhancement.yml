@@ -1,0 +1,31 @@
+name: Enhancement
+description: A new feature or an improvement.
+labels: [enhancement, manual, triaged]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is missing or hard today, and who it hurts.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links, counts or quotes that show the need. Optional.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+      description: The proposed solution.
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      description: Observable acceptance criteria, one per line.
+  - type: textarea
+    id: non-goals
+    attributes:
+      label: Non-goals
+      description: What this issue does not cover. Optional.

@@ -1,0 +1,21 @@
+name: Documentation
+description: A documentation change or gap.
+labels: [documentation, manual, triaged]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong, missing or out of date.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: The file, page or link that shows it. Optional.
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      description: Observable acceptance criteria, one per line.
